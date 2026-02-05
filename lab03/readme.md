@@ -1,9 +1,3 @@
----
-title: "Lab 3 – Web Mapping with Mapbox"
-author: "Nuria Ibrahim"
-date: "`r Sys.Date()`"
-output: github_document
----
 
 # Lab 3: COVID-19 Web Maps
 
