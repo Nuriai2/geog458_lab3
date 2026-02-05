@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>COVID-19 Cases (Proportional Symbols)</title>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<div class="title">COVID-19 Cases</div>
+<div class="subtitle">USA counties (2020) — proportional symbols</div>
+
+<div class="legend">
+  <h4>Total deaths</h4>
+
+  <div><span style="background:#f7fbff"></span> 0–100</div>
+  <div><span style="background:#c6dbef"></span> 100–500</div>
+  <div><span style="background:#6baed6"></span> 500–1000</div>
+  <div><span style="background:#2171b5"></span> 1000–3000</div>
+  <div><span style="background:#08306b"></span> 3000+</div>
+</div>
+
+<script>
+createMap("cases");
+</script>
+
+</body>
+</html>
+
